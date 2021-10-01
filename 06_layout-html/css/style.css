@@ -366,7 +366,7 @@ ul {
   height: 11px;
   border-right: 2px solid;
   border-top: 2px solid;
-  transform:rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .service-item {
@@ -442,13 +442,13 @@ ul {
   min-height: 275px;
   font-family: Muller;
   font-size: 16px;
-   font-style: normal;
+  font-style: normal;
   font-weight: 400;
-   line-height: 32px;
-   letter-spacing: 0em;
-   text-align: left;
-   background-repeat: no-repeat;
-   background-position: 40px 45px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 40px 45px;
 }
 
 .benefits-item:not(:nth-child(4n)) {
@@ -492,7 +492,6 @@ ul {
   background-image: url("../img/swimming-pool.svg");
 }
 
-
 /* Размещение */
 
 .title-placing {
@@ -519,17 +518,17 @@ ul {
 }
 
 .price-with-rating {
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .star-rating {
   display: inline;
-  margin-left: 46px;
 }
 
 .placing-price {
   display: inline-block;
   margin: 0;
+  margin-right: 45px;
 }
 
 .placing-name {
@@ -578,6 +577,8 @@ margin-bottom: 16px;
   line-height: 16px;
   border: 1px solid #cc9933;
   border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff;
 }
 
 .placing-item {
@@ -595,14 +596,15 @@ margin-bottom: 16px;
 .placing-block9 {
   background-image: url("../img/hotel9.png");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px 50px 27px 50px;
 }
 
 .look-variant {
   display: inline-block;
-  padding-right: 15px;
-  margin-top: 373px;
-  margin-left: 54px;
-  margin-bottom: 27px;
   color: #ffffff;
   font-family: Muller;
   font-size: 20px;
@@ -610,4 +612,322 @@ margin-bottom: 16px;
   font-weight: 500;
   line-height: 40px;
   letter-spacing: 0em;
+}
+
+/* Хочу тур */
+
+.section-tour {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+}
+
+.tour-container {
+  padding: 38px 45px 71px 45px;
+  background-color: #e9e9e9;
+  border-radius: 15px;
+}
+
+.title-tour {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section-tour-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 28px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+}
+
+.position-form-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-tour-border {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #e1e1e1;
+  width: 100%;
+}
+
+.tour-local {
+  margin-left: -5px;
+  border: none;
+  cursor: pointer;
+}
+
+.section-tour-label {
+  display: block;
+  padding-bottom: 15px;
+  font-family: "MullerRegular";
+  font-size: 12px;
+  line-height: 1px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.section-tour-date {
+  border: none;
+  cursor: pointer;
+}
+
+.id-number {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tour-btn {
+  margin-top: o;
+  padding: 13px 30px;
+}
+
+/* контакты */
+
+.title-contacts {
+  margin: 0;
+  margin-bottom: 26px;
+  margin-left: 45px;
+}
+
+.section-contacts {
+  padding-top: 35px;
+  padding-bottom: 19px;
+}
+
+.contacts-white-container {
+  padding: 44px 44px 46px 46px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.contacts-block {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.contacts-picture {
+  border-radius: 10px;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  max-width: 375px;
+  list-style: none;
+}
+
+.contact-item {
+  display: flex;
+  border-bottom: 1px solid#C4C4C4;
+  padding-bottom: 23px;
+  margin-bottom: 25px;
+}
+
+.contact-item-schedule {
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.contacts-heading {
+  font-family: Muller;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+
+.contact1 {
+  margin: 0;
+  margin-right: 83px;
+}
+
+.contact2 {
+  margin: 0;
+  margin-right: 47px;
+}
+
+.contact3 {
+  margin: 0;
+  margin-right: 80px;
+}
+
+.contact4 {
+  margin: 0;
+  margin-right: 75px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text {
+  margin: 0;
+}
+
+.contact-text3 {
+  margin-top: 25px;
+}
+
+.button-contact {
+  padding: 27px 29px;
+  font-weight: 700;
+}
+
+.contact-text {
+  font-family: Muller;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.links-in-contacts {
+  color: #cc9933;
+}
+
+.grey-contact-text {
+  color: #999999;
+}
+
+/* footer */
+
+.footer-home {
+  background-color: #333333;
+  height: 341px;
+  border-radius: 15px;
+  display: flex;
+  padding: 44px 51px 0 52px;
+}
+
+.footer-left-text {
+  margin: 0;
+  font-family: Muller;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-left-text1 {
+  margin-bottom: 40px;
+}
+
+.footer-left-text2 {
+  margin-bottom: 49px;
+}
+
+.footer-left-link {
+  font-family: Muller;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #cc9933;
+}
+
+.footer-left {
+  max-width: 320px;
+  margin-right: 102px;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+  max-width: 800px;
+  height: 100%;
+  background-image: url("../img/footer-logo.svg");
+  background-repeat: no-repeat;
+  background-position: 263px 62px;
+  background-size: 254px 228px;
+}
+
+.footer-right {
+  max-width: 25px;
+}
+
+.footer-tel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.footer-center-text {
+  margin: 0;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-family: Muller;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.footer-telephone-link {
+  display: inline-block;
+  color: #cc9933;
+}
+
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 24px;
+  color: #cc9933;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+}
+.footer-icon {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.social-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer-icon1 {
+  background-image: url("../img/icon1.svg");
+}
+
+.footer-icon2 {
+  background-image: url("../img/icon2.svg");
+}
+
+.footer-icon3 {
+  background-image: url("../img/icon3.svg");
+}
+
+.footer-icon4 {
+  background-image: url("../img/icon4.svg");
+}
+
+.footer-icon5 {
+  background-image: url("../img/icon5.svg");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+}
+
+.footer-list {
+  margin-left: 0;
 }

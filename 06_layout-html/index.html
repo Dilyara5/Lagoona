@@ -61,20 +61,26 @@
             <article class="section-special-offers-list-item offer-image-1">
               <h3 class="cards-name">Мальдивские острова</h3>
               <span class="cards-description">от 55 000 р</span>
-               <p class="more-info"><a class="more-detailed-link arrow" href="#">Подробнее</a></p>
+              <p class="more-info">
+                <a class="more-detailed-link arrow" href="#">Подробнее</a>
+              </p>
             </article>
 
             <article class="section-special-offers-list-item offer-image-2">
               <h3 class="cards-name">Горящий тур на остров Крит</h3>
               <span class="cards-description">от 30 000 р</span>
-               <p class="more-info"><a class="more-detailed-link arrow" href="#">Подробнее</a></p>
+              <p class="more-info">
+                <a class="more-detailed-link arrow" href="#">Подробнее</a>
+              </p>
             </article>
           </div>
           <div class="section-special-offers-list">
             <article class="section-special-offers-list-item-luxe offer-image-3">
               <h3 class="cards-name card3">Номера категории люкс</h3>
               <span class="cards-description">от 5000 р</span>
-                <p class="more-info"><a class="more-detailed-link arrow" href="#">Подробнее</a></p>
+              <p class="more-info">
+                <a class="more-detailed-link arrow" href="#">Подробнее</a>
+              </p>
             </article>
           </div>
         </div>
@@ -207,9 +213,9 @@
           <!-- Карточка 1 -->
           <li class="placing-item placing-block1">
             <article>
-              <img src="img/hotel1.png" alt="Отель: Lagoona española" class="placing-picture"/>
-                <div class="hotels">
-                  <div class="price-with-rating">
+              <img src="img/hotel1.png" alt="Отель: Lagoona española" class="placing-picture" />
+              <div class="hotels">
+                <div class="price-with-rating">
                   <p class="placing-price">
                     от <span class="placing-price-span">4 698 р </span>/ ночь
                   </p>
@@ -256,8 +262,8 @@
           <li class="placing-item placing-block3">
             <article>
               <img src="img/hotel3.png" alt="Отель: Lagoona de la guerra " class="placing-picture" />
-                <div class="hotels">
-                  <div class="price-with-rating">
+              <div class="hotels">
+                <div class="price-with-rating">
                   <p class="placing-price">
                     от <span class="placing-price-span">6 254 р</span>/ ночь
                   </p>
@@ -398,12 +404,204 @@
           </li>
           <!-- Карточка 9 -->
           <li class="placing-item placing-block9">
-            <a class="look-variant arrow" href="#"> Посмотреть все варианты </a>
+            <a class="look-variant arrow" href="#">
+              Посмотреть все варианты
+            </a>
           </li>
         </ul>
       </div>
     </section>
+
+    <section class="section-tour">
+      <div class="container tour-container">
+        <h2 class="section-title title-tour">Хочу тур</h2>
+        <div class="form">
+          <form class="section-tour-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+            <div class="position-form-items">
+              <div class="section-tour-border">
+                <label class="section-tour-label" for="city">Город вылета</label>
+                <select class="tour-local" name="city">
+                  <option value="Выберите город" disabled selected>
+                    Выберите город
+                  </option>
+                  <option value="Санкт-Петербург">Санкт-Петербург</option>
+                  <option value="Москва">Москва</option>
+                  <option value="Казань">Казань</option>
+                  <option value="Самара">Самара</option>
+                  <option value="Челябинск">Челябинск</option>
+                  <option value="Нижний Новгород">Нижний Новгород</option>
+                </select>
+              </div>
+              <div class="section-tour-border">
+                <label class="section-tour-label" for="country">Страна</label>
+                <select class="tour-local" name="country">
+                  <option value="Австралия">Австралия</option>
+                  <option value="Россия">Россия</option>
+                  <option value="Чехия">Чехия</option>
+                  <option value="Швейцария">Швейцария</option>
+                  <option value="США">США</option>
+                </select>
+              </div>
+
+              <div class="section-tour-border">
+                <label class="section-tour-label" for="date of arrive">Дата прибытия</label>
+                <input class="section-tour-date" type="date" name="date of arrive" />
+              </div>
+
+              <div class="section-tour-border">
+                <label class="section-tour-label" for="nights">Ночей</label>
+                <input class="id-number" type="number" name="nights" min="1" max="31" />
+              </div>
+
+              <div class="section-tour-border">
+                <label class="section-tour-label" for="tourists">Туристы</label>
+                <input class="id-number" type="number" name="tourists" min="1" max="20" />
+              </div>
+
+              <button class="placing-button tour-btn" type="submit">
+                Найти
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section-contacts">
+      <div class="container">
+        <h2 class="section-title title-contacts">Контакты</h2>
+        <!-- Контакт-блок -->
+        <div class="contacts-white-container">
+          <div class="contacts-block">
+            <div class="contacts-picture">
+              <img src="img/contacts-img.jpg" alt="Lagoona-reception" />
+            </div>
+            <div class="contacts-info-block">
+              <ul class="contacts-list">
+                <li class="contact-item">
+                  <div class="contact-left-block">
+                    <h3 class="contacts-heading contact1">Адрес</h3>
+                  </div>
+                  <div class="contact-right-block">
+                    <span class="contact-text">
+                      Москва, улица Юности, дом 5 строение 4, офис 2
+                    </span>
+                  </div>
+                </li>
+                <li class="contact-item">
+                  <div class="contact-left-block">
+                    <h3 class="contacts-heading contact2">Телефоны</h3>
+                  </div>
+                  <div class="contact-right-block flex-column">
+                    <a href="" class="links-in-contacts contact-text">
+                      +7 (499) 535-64-34
+                    </a>
+                    <a href="" class="links-in-contacts contact-text">
+                      +7 (495) 005-05-44
+                    </a>
+                  </div>
+                </li>
+                <li class="contact-item">
+                  <div class="contact-left-block">
+                    <h3 class="contacts-heading contact3">E-mail</h3>
+                  </div>
+                  <div class="contact-right-block contact-right3">
+                    <a href="" class="contact-text contact-text3 links-in-contacts">
+                      lg.oona@mail.ru
+                    </a>
+                    <p class="contact-text grey-contact-text">
+                      по вопросам бронирования
+                    </p>
+                    <a href="" class="contact-text links-in-contacts">
+                      hotels.ln@mail.ru
+                    </a>
+                    <p class="contact-text grey-contact-text">
+                      по вопросам сотрудничества
+                    </p>
+                  </div>
+                </li>
+                <li class="contact-item contact-item-schedule">
+                  <div class="contact-left-block">
+                    <h3 class="contacts-heading contact4">График</h3>
+                  </div>
+                  <div class="contact-right-block contact-right4">
+                    <p class="contact-text">
+                      Понедельник - пятница, с 10:00 до 19:00
+                    </p>
+                  </div>
+                </li>
+                <li class="btn-contact-route">
+                  <button class="placing-button button-contact">
+                    Построить маршрут
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-home">
+
+        <div class="footer-left">
+          <p class="footer-left-text footer-left-text1">
+            © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»
+          </p>
+          <p class="footer-left-text footer-left-text2">
+            Представленная на сайте информация носит справочный характер
+            и не является публичной офертой
+          </p>
+          <a href="#" class="footer-left-link">
+            Пользовательское соглашение
+          </a>
+        </div>
+
+        <div class="footer-center">
+          <p class="footer-center-text">
+            11710, улица Юности, дом 5 строение 4, офис 2
+          </p>
+          <div class="footer-tel">
+            <a href="tel:+74995356434" class="footer-telephone-link">
+              +7 (499) 535-64-34
+            </a>
+            <a href="tel:+74950050544" class="footer-telephone-link">
+              +7 (495) 005-05-44
+            </a>
+          </div>
+          <div class="footer-email">
+          <a href="" class="footer-mail-link"> lg.oona@mail.ru </a>
+            <a href="" class="footer-mail-link"> hotels.ln@mail.ru </a>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="" class="footer-icon footer-icon1"></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="footer-icon footer-icon2"></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="footer-icon footer-icon3"></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="footer-icon footer-icon4"></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="footer-icon footer-icon5"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
