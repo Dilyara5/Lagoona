@@ -662,10 +662,9 @@ ul {
 
 .section-tour-label {
   display: block;
-  padding-bottom: 15px;
-  font-family: "MullerRegular";
+  margin-bottom: 15px;
   font-size: 12px;
-  line-height: 1px;
+  line-height: 12px;
   color: rgba(0, 0, 0, 1);
 }
 
@@ -760,6 +759,11 @@ ul {
   margin-right: 80px;
 }
 
+.mail-contacts {
+display: flex;
+flex-direction: column;
+}
+
 .contact4 {
   margin: 0;
   margin-right: 75px;
@@ -774,9 +778,6 @@ ul {
   margin: 0;
 }
 
-.contact-text3 {
-  margin-top: 25px;
-}
 
 .button-contact {
   padding: 27px 29px;
@@ -802,12 +803,20 @@ ul {
 
 /* footer */
 
+footer.footer {
+padding-bottom: 20px;
+}
+
 .footer-home {
   background-color: #333333;
   height: 341px;
   border-radius: 15px;
   display: flex;
-  padding: 44px 51px 0 52px;
+  padding: 44px 51px 42px 52px;
+  background-image: url("../img/footer-logo.svg");
+  background-repeat: no-repeat;
+  background-position: 750px bottom;
+  background-size: 254px 228px;
 }
 
 .footer-left-text {
@@ -849,10 +858,6 @@ ul {
   padding-right: 200px;
   max-width: 800px;
   height: 100%;
-  background-image: url("../img/footer-logo.svg");
-  background-repeat: no-repeat;
-  background-position: 263px 62px;
-  background-size: 254px 228px;
 }
 
 .footer-right {
@@ -871,7 +876,7 @@ ul {
   margin: 0;
   margin-bottom: 14px;
   font-size: 16px;
-  font-family: Muller;
+  font-style: normal;
   color: #ffffff;
   line-height: 24px;
 }
