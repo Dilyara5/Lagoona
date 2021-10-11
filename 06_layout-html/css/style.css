@@ -161,10 +161,11 @@ ul {
   border-radius: 10px;
   cursor: pointer;
   background-color: #fff;
-  transition: color .3s linear;
+  transition: color .9s ease;
 }
 
 .btn:hover {
+  transition: .3s linear;
   transform: scale(0.9);
   color: var(--color-bright-orange);}
 
@@ -258,7 +259,7 @@ ul {
 }
 
 .offer-image-3 {
-  background-image: url("../img/offer3.png");
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url("../img/offer3.png");
   background-size: cover;
 }
 
@@ -914,36 +915,25 @@ padding-bottom: 20px;
   margin: 0;
   margin-left: 60px;
 }
+
 .footer-icon {
   display: block;
   width: 25px;
   height: 25px;
+  fill: gray;
+  transition: fill .3s ease;
+}
+
+.footer-icon:hover {
+  fill: var(--color-bright-orange);
+}
+
+.footer-icon:active {
+  fill: darkorange;
 }
 
 .social-item:not(:last-child) {
   margin-bottom: 20px;
-}
-
-.footer-icon1 {
-  background-image: url("../img/icon1.svg");
-}
-
-.footer-icon2 {
-  background-image: url("../img/icon2.svg");
-}
-
-.footer-icon3 {
-  background-image: url("../img/icon3.svg");
-}
-
-.footer-icon4 {
-  background-image: url("../img/icon4.svg");
-}
-
-.footer-icon5 {
-  background-image: url("../img/icon5.svg");
-  background-repeat: no-repeat;
-  background-size: 25px 25px;
 }
 
 .footer-list {
